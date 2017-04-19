@@ -2,7 +2,7 @@
    "application": {
       "name": "App-Package-Test",
       "version": "###version###",
-      "project": "SelfService",
+      "project": "Electric Cloud",
       "mode": "PARALLEL",
       "components": {
          "component": [
