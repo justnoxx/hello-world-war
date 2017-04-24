@@ -1,7 +1,7 @@
 {
    "application": {
       "name": "App-Package-Test",
-      "version": "###version###",
+      "version": "$BUILD_NUMBER",
       "project": "Electric Cloud",
       "mode": "PARALLEL",
       "components": {
@@ -13,7 +13,7 @@
                "file": {
                   "artifactType": "JBOSS",
                   "artifactName": "org.ec:jboss",
-                  "artifactVersion": "1.0",
+                  "artifactVersion": "$BUILD_NUMBER",
                   "sourceDirectory" : "jbosshello",
                   "patterns": "hello-world-war-1.0.0.war",
                   "jbossConfig" : "jboss7-at-win",
@@ -30,7 +30,7 @@
                "file": {
                   "artifactType": "TOMCAT",
                   "artifactName": "org.ec:tomcat",
-                  "artifactVersion": "1.0",
+                   "artifactVersion": "$BUILD_NUMBER",
                   "sourceDirectory" : "/tmp/tomcathello",
                   "patterns": "hello-world-war-1.0.0.war",
                   "jdbcConnectionString" : "jdbc:mysql://10.200.1.217:3306/tomcathello",
@@ -47,7 +47,7 @@
                "file": {
                   "artifactType": "WEBLOGIC",
                   "artifactName": "org.ec:weblogic",
-                  "artifactVersion": "1.0",
+                   "artifactVersion": "$BUILD_NUMBER",
                   "sourceDirectory" : "weblogichello",
                   "patterns": "hello-world-war-1.0.0.war",
                   "jdbcConnectionString" : "jdbc:mysql://10.200.1.217:3306/weblogichello",
@@ -66,7 +66,7 @@
                "file": {
                   "artifactType": "WEBSPHERE",
                   "artifactName": "org.ec:websphere",
-                  "artifactVersion": "1.0",
+                   "artifactVersion": "$BUILD_NUMBER",
                   "sourceDirectory" : "webspherehello",
                   "patterns": "hello-world-war-1.0.0.war",
                   "jdbcConnectionString" : "jdbc:mysql://10.200.1.217:3306/webspherehello",
