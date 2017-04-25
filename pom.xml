@@ -9,7 +9,34 @@
 	<description>Simplest possible Java Webapp</description>
 
 	<build>
+        
+        <!-- <resources> -->
+        <!--     <resource> -->
+        <!--         <directory>src/main/resources</directory> -->
+        <!--         <includes> -->
+        <!--             <include>manifest.json</include> -->
+        <!--         </includes> -->
+        <!--     </resource> -->
+        <!-- </resources> -->
 		<plugins>
+            <plugin>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>prepare-package</phase>
+                        <configuration>
+                            <tasks>
+                                <replace token= "$BUILD_VERSION" value="${version}" dir="./">                                 
+                                    <include name="manifest.json"/>
+                                </replace>
+                            </tasks>
+                        </configuration>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
 			<plugin>
 				<groupId>org.mortbay.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
