@@ -46,7 +46,8 @@
                "tier": "WebLogic",
                "file": {
                   "artifactType": "WEBLOGIC",
-                  "artifactName": "org.ec:weblogic",
+                   "artifactName": "org.ec:weblogic",
+                   "artifactVersion": "$BUILD_NUMBER",
                    "patterns": "hello-world-war-$BUILD_VERSION.war",
                   "sourceDirectory" : "weblogichello",
                    "patterns": "hello-world-war-*.war",

@@ -26,7 +26,7 @@
                         <phase>prepare-package</phase>
                         <configuration>
                             <tasks>
-                                <replace token= "$BUILD_VERSION" value="${version}" dir="./">                                 
+                                <replace token= "$BUILD_VERSION" value="${project.version}" dir="./">                                 
                                     <include name="manifest.json"/>
                                 </replace>
                             </tasks>
