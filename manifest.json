@@ -10,7 +10,7 @@
                "name": "JBoss-MC",
                "description": "This is the Hello world test app",
                "tier": "JBoss",
-               "file": {
+               "artifact": {
                   "artifactType": "JBOSS",
                   "artifactName": "org.ec:jboss",
                   "artifactVersion": "$BUILD_NUMBER",
@@ -27,7 +27,7 @@
                "name": "Tomcat-MC",
                "description": "This is the Jpetstore test app",
                "tier": "Tomcat",
-               "file": {
+               "artifact": {
                   "artifactType": "TOMCAT",
                   "artifactName": "org.ec:tomcat",
                    "artifactVersion": "$BUILD_NUMBER",
@@ -44,7 +44,7 @@
                "name": "WebLogic-MC",
                "description": "This is the Jpetstore test app",
                "tier": "WebLogic",
-               "file": {
+               "artifact": {
                   "artifactType": "WEBLOGIC",
                    "artifactName": "org.ec:weblogic",
                    "artifactVersion": "$BUILD_NUMBER",
@@ -64,7 +64,7 @@
                "name": "WebSphere-MC",
                "description": "This is the Jpetstore test app",
                "tier": "WebSphere",
-               "file": {
+               "artifact": {
                   "artifactType": "WEBSPHERE",
                   "artifactName": "org.ec:websphere",
                    "artifactVersion": "$BUILD_NUMBER",
