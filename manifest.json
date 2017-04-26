@@ -22,7 +22,7 @@
                      "jdbcUsername" : "flowqe",
                      "jdbcPassword" : "flowqe"
                  }
-             },
+             }
          ]          
       }
    }
