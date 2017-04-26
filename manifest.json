@@ -15,7 +15,7 @@
                   "artifactName": "org.ec:jboss",
                   "artifactVersion": "$BUILD_NUMBER",
                   "sourceDirectory" : "jbosshello",
-                  "artifactFileName": "hello-world-war-$BUILD_VERSION.war",
+                  "patterns": "hello-world-war-$BUILD_VERSION.war",
                   "jbossConfig" : "jboss7-at-win",
                   "jbossCli" : "C:\\\\Users\\\\build\\\\EAP-7.0.0\\\\bin\\\\jboss-cli.bat",
                   "jdbcConnectionString" : "jdbc:mysql://10.200.1.217:3306/jbosshello",
